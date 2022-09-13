@@ -4,7 +4,7 @@ Execution Steps :
 Pre-Requisite :
 ================
 1)Terraform 
-2)AWS CLI : Change the secret and key value in the provider file as per your account details 
+2)AWS CLI 
 3)AWS Account 
 4)Any IDE( Used VS)
 
@@ -14,12 +14,14 @@ Execution Steps :
 
 1)
 Clone this repository
-git clone https://github.com/pattanaiksrimani/Challanges_UK
+git clone [https://github.com/pattanaiksrimani/Challanges_UK](https://github.com/pattanaiksrimani/Challanges_UK.git)
 
-2)Go to the folder 
-3) Do terraform init
-4) terraform plan 
-5) terraform apply 
+2) Go to the folder Challange-1 
+3) In the provider.tf change the value of the access_key and secret_key as per you aws account 
+4) Initialise terraform using :  terraform init
+5) terraform validate (to check any syntax )
+6) terraform plan 
+7) terraform apply 
 
 Testing : 
 ============
